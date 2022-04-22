@@ -1,0 +1,7 @@
+# ali-to-phones --per-frame=true exp/tri3a/decode/../final.mdl "ark:gunzip -c exp/tri3a/decode/ali_tmp.*.gz|" "ark,t:|gzip -c >exp/tri3a/decode/ali_frame_tmp.gz" 
+# Started at Fri Apr 22 16:27:30 CDT 2022
+#
+ali-to-phones --per-frame=true exp/tri3a/decode/../final.mdl 'ark:gunzip -c exp/tri3a/decode/ali_tmp.*.gz|' 'ark,t:|gzip -c >exp/tri3a/decode/ali_frame_tmp.gz' 
+LOG (ali-to-phones[5.5.1013~6-d787]:main():ali-to-phones.cc:134) Done 70 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Apr 22 16:27:30 CDT 2022, elapsed time 0 seconds

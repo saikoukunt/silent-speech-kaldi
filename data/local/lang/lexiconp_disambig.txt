@@ -1,0 +1,16 @@
+!SIL	1.0	sil_S
+<UNK>	1.0	spn_S
+four	1.0	f_B ao1_I r_E
+up	1.0	ah1_B p_E
+zero	1.0	z_B ih1_I r_I ow0_E
+nine	1.0	n_B ay1_I n_E
+six	1.0	s_B ih1_I k_I s_E
+right	1.0	r_B ay1_I t_E
+left	1.0	l_B eh1_I f_I t_E
+five	1.0	f_B ay1_I v_E
+eight	1.0	ey1_B t_E
+three	1.0	th_B r_I iy1_E
+one	1.0	w_B ah1_I n_E
+two	1.0	t_B uw1_E
+seven	1.0	s_B eh1_I v_I ah0_I n_E
+down	1.0	d_B aw1_I n_E

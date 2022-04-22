@@ -1,0 +1,16 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+four 1.0	f ao1 r
+up 1.0	ah1 p
+zero 1.0	z ih1 r ow0
+nine 1.0	n ay1 n
+six 1.0	s ih1 k s
+right 1.0	r ay1 t
+left 1.0	l eh1 f t
+five 1.0	f ay1 v
+eight 1.0	ey1 t
+three 1.0	th r iy1
+one 1.0	w ah1 n
+two 1.0	t uw1
+seven 1.0	s eh1 v ah0 n
+down 1.0	d aw1 n

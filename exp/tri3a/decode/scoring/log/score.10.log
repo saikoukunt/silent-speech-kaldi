@@ -1,0 +1,5 @@
+# cat exp/tri3a/decode/scoring/10.tra | utils/int2sym.pl -f 2- exp/tri3a/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/tri3a/decode/scoring/test_filt.txt ark,p:- >& exp/tri3a/decode/wer_10 
+# Started at Fri Apr 22 16:27:30 CDT 2022
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Apr 22 16:27:31 CDT 2022, elapsed time 1 seconds
