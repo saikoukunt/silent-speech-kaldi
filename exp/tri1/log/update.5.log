@@ -1,54 +1,50 @@
 # gmm-est --mix-up=3440 --power=0.25 --write-occs=exp/tri1/6.occs exp/tri1/5.mdl "gmm-sum-accs - exp/tri1/5.*.acc |" exp/tri1/6.mdl 
-# Started at Sat Apr 23 11:02:01 CDT 2022
+# Started at Sat Apr 23 12:40:24 CDT 2022
 #
 gmm-est --mix-up=3440 --power=0.25 --write-occs=exp/tri1/6.occs exp/tri1/5.mdl 'gmm-sum-accs - exp/tri1/5.*.acc |' exp/tri1/6.mdl 
 gmm-sum-accs - exp/tri1/5.1.acc 
-LOG (gmm-sum-accs[5.5.1013~6-d787]:main():gmm-sum-accs.cc:63) Summed 1 stats, total count 42908, avg like/frame -147.235
-LOG (gmm-sum-accs[5.5.1013~6-d787]:main():gmm-sum-accs.cc:66) Total count of stats is 42908
-LOG (gmm-sum-accs[5.5.1013~6-d787]:main():gmm-sum-accs.cc:67) Written stats to -
-LOG (gmm-est[5.5.1013~6-d787]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 0 per frame over 42908 frames. 
-LOG (gmm-est[5.5.1013~6-d787]:MleUpdate():transition-model.cc:531) 10 probabilities floored, 433 out of 566 transition-states skipped due to insuffient data (it is normal to have some skipped.)
-LOG (gmm-est[5.5.1013~6-d787]:main():gmm-est.cc:102) Transition model update: Overall 0 log-like improvement per frame over 42908 frames.
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001783, occupation count 9.353735, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001419, occupation count 7.443383, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001791, occupation count 9.396117, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001510, occupation count 7.922768, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001755, occupation count 9.208634, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001711, occupation count 8.977548, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001849, occupation count 9.703523, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001582, occupation count 8.299782, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001681, occupation count 8.820048, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001683, occupation count 8.832931, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001615, occupation count 8.472772, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001508, occupation count 7.913900, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.005243, occupation count 9.961123, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004504, occupation count 8.556686, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004880, occupation count 9.271634, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004997, occupation count 9.495028, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.005178, occupation count 9.838181, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004691, occupation count 8.912508, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.056497, occupation count 9.999967, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.016005, occupation count 9.603251, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.011627, occupation count 9.940707, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004222, occupation count 9.036077, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004149, occupation count 8.877965, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004615, occupation count 9.875496, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004193, occupation count 8.972419, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004037, occupation count 8.638329, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004410, occupation count 9.437951, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004007, occupation count 8.574002, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.006037, occupation count 9.000823, vector size 126)
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 3, weight = 1
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 1, weight = 1
-WARNING (gmm-est[5.5.1013~6-d787]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 4, weight = 1
-LOG (gmm-est[5.5.1013~6-d787]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 52 variance elements floored in 51 Gaussians, out of 2058
-LOG (gmm-est[5.5.1013~6-d787]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 29 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
-LOG (gmm-est[5.5.1013~6-d787]:main():gmm-est.cc:113) GMM update: Overall 0.985602 objective function improvement per frame over 42908 frames
-LOG (gmm-est[5.5.1013~6-d787]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -147.235 over 42908 frames.
-WARNING (gmm-est[5.5.1013~6-d787]:GetSplitTargets():model-common.cc:134) Could not split up to 3440 due to min-count = 20 (or no counts at all)
+LOG (gmm-sum-accs[5.5.1017~3-12a20]:main():gmm-sum-accs.cc:63) Summed 1 stats, total count 42908, avg like/frame -147.129
+LOG (gmm-sum-accs[5.5.1017~3-12a20]:main():gmm-sum-accs.cc:66) Total count of stats is 42908
+LOG (gmm-sum-accs[5.5.1017~3-12a20]:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est[5.5.1017~3-12a20]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 0 per frame over 42908 frames. 
+LOG (gmm-est[5.5.1017~3-12a20]:MleUpdate():transition-model.cc:531) 11 probabilities floored, 437 out of 574 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est[5.5.1017~3-12a20]:main():gmm-est.cc:102) Transition model update: Overall 0 log-like improvement per frame over 42908 frames.
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001030, occupation count 5.099801, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001740, occupation count 8.611901, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001785, occupation count 8.834062, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001831, occupation count 9.059228, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001893, occupation count 9.368415, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001739, occupation count 8.604599, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001537, occupation count 7.608587, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001934, occupation count 9.570673, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001869, occupation count 9.251737, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001457, occupation count 7.212990, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001585, occupation count 7.845161, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001775, occupation count 8.783867, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.002018, occupation count 9.987872, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001973, occupation count 9.762754, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001519, occupation count 7.517773, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001578, occupation count 7.811882, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.001616, occupation count 7.998564, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 0, weight = 1
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.004978, occupation count 9.444119, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.012365, occupation count 9.669366, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.013790, occupation count 9.997453, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.011430, occupation count 8.287067, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.010928, occupation count 7.923114, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.013143, occupation count 9.528992, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.021657, occupation count 9.983973, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.089286, occupation count 9.999987, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:365) Gaussian has too little data but not removing it because it is the last Gaussian: i = 0, occ = 2, weight = 1
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.010107, occupation count 9.490491, vector size 126)
+WARNING (gmm-est[5.5.1017~3-12a20]:MleDiagGmmUpdate():mle-diag-gmm.cc:359) Too little data - removing Gaussian (weight 0.006065, occupation count 9.158135, vector size 126)
+LOG (gmm-est[5.5.1017~3-12a20]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 60 variance elements floored in 60 Gaussians, out of 2053
+LOG (gmm-est[5.5.1017~3-12a20]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 27 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est[5.5.1017~3-12a20]:main():gmm-est.cc:113) GMM update: Overall 0.947786 objective function improvement per frame over 42908 frames
+LOG (gmm-est[5.5.1017~3-12a20]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -147.129 over 42908 frames.
+WARNING (gmm-est[5.5.1017~3-12a20]:GetSplitTargets():model-common.cc:134) Could not split up to 3440 due to min-count = 20 (or no counts at all)
 
-LOG (gmm-est[5.5.1013~6-d787]:SplitByCount():am-diag-gmm.cc:116) Split 128 states with target = 3440, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 2058 to 2087
-LOG (gmm-est[5.5.1013~6-d787]:main():gmm-est.cc:146) Written model to exp/tri1/6.mdl
-# Accounting: time=1 threads=1
-# Ended (code 0) at Sat Apr 23 11:02:02 CDT 2022, elapsed time 1 seconds
+LOG (gmm-est[5.5.1017~3-12a20]:SplitByCount():am-diag-gmm.cc:116) Split 128 states with target = 3440, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 2053 to 2080
+LOG (gmm-est[5.5.1017~3-12a20]:main():gmm-est.cc:146) Written model to exp/tri1/6.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr 23 12:40:24 CDT 2022, elapsed time 0 seconds

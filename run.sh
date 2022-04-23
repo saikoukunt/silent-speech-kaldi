@@ -49,7 +49,7 @@ echo "===== LANGUAGE MODEL CREATION ====="
 echo "===== MAKING lm.arpa ====="
 echo
 
-sdir=$KALDI_ROOT/tools/srilm/bin/macosx
+sdir=$KALDI_ROOT/tools/srilm/bin/i686-m64
 export PATH=$PATH:$sdir
 
 local=data/local

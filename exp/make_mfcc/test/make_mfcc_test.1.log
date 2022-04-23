@@ -1,156 +1,156 @@
-# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/Users/saikoukuntla/Documents/kaldi/egs/silent-speech/mfcc/raw_mfcc_test.1.ark,/Users/saikoukuntla/Documents/kaldi/egs/silent-speech/mfcc/raw_mfcc_test.1.scp 
-# Started at Sat Apr 23 11:01:30 CDT 2022
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_test.1.ark,/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_test.1.scp 
+# Started at Sat Apr 23 12:40:01 CDT 2022
 #
-copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/Users/saikoukuntla/Documents/kaldi/egs/silent-speech/mfcc/raw_mfcc_test.1.ark,/Users/saikoukuntla/Documents/kaldi/egs/silent-speech/mfcc/raw_mfcc_test.1.scp 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_test.1.ark,/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_test.1.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_down_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_down_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_down_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_down_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_down_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_eight_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_eight_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_eight_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_eight_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 10 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_eight_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_five_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_five_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_five_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_five_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_five_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_four_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_four_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_four_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_four_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 20 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_four_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_left_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_left_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_left_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_left_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_left_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_nine_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_nine_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_nine_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_nine_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 30 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_nine_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_one_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_one_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_one_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_one_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_one_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_right_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_right_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_right_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_right_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 40 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_right_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_seven_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_seven_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_seven_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_seven_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_seven_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_six_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_six_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_six_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_six_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 50 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_six_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_three_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_three_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_three_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_three_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_three_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_two_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_two_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_two_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_two_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 60 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_two_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_up_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_up_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_up_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_up_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_up_4
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_zero_0
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_zero_1
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_zero_2
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_zero_3
-WARNING (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:214) Processed 70 utterances
-VLOG[2] (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:215) Processed features for key sess10_zero_4
-LOG (compute-mfcc-feats[5.5.1013~6-d787]:main():compute-mfcc-feats.cc:218)  Done 70 out of 70 utterances.
-LOG (copy-feats[5.5.1013~6-d787]:main():copy-feats.cc:143) Copied 70 feature matrices.
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_down_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_down_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_down_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_down_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_down_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_eight_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_eight_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_eight_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_eight_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_eight_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_five_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_five_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_five_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_five_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_five_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_four_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_four_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_four_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_four_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_four_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_left_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_left_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_left_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_left_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_left_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_nine_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_nine_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_nine_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_nine_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_nine_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_one_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_one_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_one_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_one_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_one_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_right_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_right_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_right_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_right_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_right_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_seven_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_seven_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_seven_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_seven_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_seven_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_six_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_six_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_six_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_six_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_six_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_three_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_three_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_three_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_three_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_three_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_two_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_two_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_two_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_two_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_two_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_up_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_up_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_up_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_up_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_up_4
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_zero_0
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_zero_1
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_zero_2
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_zero_3
+WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:191) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key sess10_zero_4
+LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:195)  Done 70 out of 70 utterances.
+LOG (copy-feats[5.5.1017~3-12a20]:main():copy-feats.cc:143) Copied 70 feature matrices.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 11:01:30 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Sat Apr 23 12:40:01 CDT 2022, elapsed time 0 seconds

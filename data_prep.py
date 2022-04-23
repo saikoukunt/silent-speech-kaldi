@@ -51,7 +51,7 @@ def prep_dir(dir):
             text.write(f'{utt_id}\t{word}\n')
 
             # write to wav.scp
-            emg = '/Users/saikoukuntla/Documents/kaldi/egs/silent-speech/emg/'
+            emg = '/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/emg/'
             path = os.path.join(emg, fold)
             fname = utt_id + '.wav'
             fullpath = path + '/' + fname

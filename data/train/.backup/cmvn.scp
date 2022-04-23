@@ -1,1 +1,7 @@
-sess1 /Users/saikoukuntla/Documents/kaldi/egs/silent-speech/mfcc/cmvn_train.ark:6
+sess3 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:6
+sess4 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:715
+sess5 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:1424
+sess6 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:2133
+sess7 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:2842
+sess8 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:3551
+sess9 /home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/cmvn_train.ark:4260

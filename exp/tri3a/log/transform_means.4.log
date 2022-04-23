@@ -1,2 +1,2 @@
 gmm-transform-means exp/tri3a/4.mat.new exp/tri3a/4.mdl exp/tri3a/4.mdl 
-LOG (gmm-transform-means[5.5.1013~6-d787]:main():gmm-transform-means.cc:103) Written model to exp/tri3a/4.mdl
+LOG (gmm-transform-means[5.5.1017~3-12a20]:main():gmm-transform-means.cc:103) Written model to exp/tri3a/4.mdl

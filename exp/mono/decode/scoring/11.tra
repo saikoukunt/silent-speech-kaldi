@@ -1,14 +1,14 @@
 sess10_down_0 3 
 sess10_down_1 3 
 sess10_down_2 3 
-sess10_down_3 3 
+sess10_down_3 10 
 sess10_down_4 3 
-sess10_eight_0 10 
-sess10_eight_1 8 
+sess10_eight_0 8 
+sess10_eight_1 4 
 sess10_eight_2 4 
 sess10_eight_3 10 
-sess10_eight_4 10 
-sess10_five_0 5 8 
+sess10_eight_4 8 
+sess10_five_0 5 
 sess10_five_1 5 
 sess10_five_2 5 
 sess10_five_3 5 
@@ -25,9 +25,9 @@ sess10_left_3 7
 sess10_left_4 7 
 sess10_nine_0 8 
 sess10_nine_1 8 
-sess10_nine_2 8 
+sess10_nine_2 4 
 sess10_nine_3 8 
-sess10_nine_4 10 
+sess10_nine_4 8 
 sess10_one_0 9 
 sess10_one_1 10 
 sess10_one_2 9 
@@ -39,31 +39,31 @@ sess10_right_2 10
 sess10_right_3 10 
 sess10_right_4 10 
 sess10_seven_0 11 
-sess10_seven_1 8 
+sess10_seven_1 11 
 sess10_seven_2 11 
 sess10_seven_3 11 
-sess10_seven_4 11 
+sess10_seven_4 7 
 sess10_six_0 8 
-sess10_six_1 12 
-sess10_six_2 8 
-sess10_six_3 12 
-sess10_six_4 11 
+sess10_six_1 10 
+sess10_six_2 12 
+sess10_six_3 10 
+sess10_six_4 10 
 sess10_three_0 13 
 sess10_three_1 10 
 sess10_three_2 13 
-sess10_three_3 10 
+sess10_three_3 13 
 sess10_three_4 13 
 sess10_two_0 14 
 sess10_two_1 14 
 sess10_two_2 14 8 
-sess10_two_3 10 
+sess10_two_3 14 4 
 sess10_two_4 14 
-sess10_up_0 15 10 
+sess10_up_0 15 
 sess10_up_1 15 
 sess10_up_2 15 
 sess10_up_3 15 
-sess10_up_4 15 
-sess10_zero_0 16 8 
+sess10_up_4 10 
+sess10_zero_0 16 
 sess10_zero_1 10 
 sess10_zero_2 16 
 sess10_zero_3 16 
