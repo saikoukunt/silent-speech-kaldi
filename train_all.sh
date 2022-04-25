@@ -9,7 +9,8 @@
 # steps/decode.sh --config conf/decode.config --nj $nj --cmd "$decode_cmd" exp/tri1/graph data/test exp/tri1/decode
 
 nj=1
-
+train_cmd="run.pl"
+decode_cmd="run.pl"
 echo
 echo "===== TRI1 ALIGNMENT ====="
 echo

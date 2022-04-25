@@ -1,11 +1,11 @@
 # compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/online/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/online/wav_online.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/online/utt2num_frames.1 --compress=true ark:- ark,scp:/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_online.1.ark,/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_online.1.scp 
-# Started at Sat Apr 23 12:48:52 CDT 2022
+# Started at Sat Apr 23 14:07:53 CDT 2022
 #
 copy-feats --write-num-frames=ark,t:exp/make_mfcc/online/utt2num_frames.1 --compress=true ark:- ark,scp:/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_online.1.ark,/home/adithyashok/Dev/Bitalino/kaldi/egs/silent-speech-kaldi/mfcc/raw_mfcc_online.1.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/online/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/online/wav_online.1.scp ark:- 
 WARNING (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 6 channels; defaulting to zero
-VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key utt_1
+VLOG[2] (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:192) Processed features for key utt_14
 LOG (compute-mfcc-feats[5.5.1017~3-12a20]:main():compute-mfcc-feats.cc:195)  Done 1 out of 1 utterances.
 LOG (copy-feats[5.5.1017~3-12a20]:main():copy-feats.cc:143) Copied 1 feature matrices.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 12:48:52 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Sat Apr 23 14:07:53 CDT 2022, elapsed time 0 seconds

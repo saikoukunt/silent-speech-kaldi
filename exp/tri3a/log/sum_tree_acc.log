@@ -1,7 +1,7 @@
 # sum-tree-stats exp/tri3a/treeacc exp/tri3a/1.treeacc 
-# Started at Sat Apr 23 12:42:07 CDT 2022
+# Started at Sat Apr 23 13:39:35 CDT 2022
 #
 sum-tree-stats exp/tri3a/treeacc exp/tri3a/1.treeacc 
-LOG (sum-tree-stats[5.5.1017~3-12a20]:main():sum-tree-stats.cc:88) Wrote summed accs ( 202 individual stats)
+LOG (sum-tree-stats[5.5.1017~3-12a20]:main():sum-tree-stats.cc:88) Wrote summed accs ( 206 individual stats)
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 12:42:07 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Sat Apr 23 13:39:35 CDT 2022, elapsed time 0 seconds

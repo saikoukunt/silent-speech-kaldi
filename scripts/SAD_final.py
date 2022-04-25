@@ -66,12 +66,12 @@ class SAD():
         while True:
             if (not input.empty()):
                             
-                self.data = abs(np.transpose(input.get()))[1:,:]
+                self.data = np.transpose(input.get())[1:,:]
                 #print(self.data)
             	
                 smoothed =  np.zeros((6,12))
                 for i in range(6):
-                    smoothed[i,:] = self.smooth(self.rms(self.data[i,:]))
+                    smoothed[i,:] = self.smooth(self.rms(np.abs(self.data[i,:])))
 
                 X = pd.DataFrame({
                     "Chan1": smoothed[0],
