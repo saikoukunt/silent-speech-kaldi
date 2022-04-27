@@ -1,90 +1,148 @@
 # lattice-best-path --lm-scale=8 --word-symbol-table=exp/tri1/graph/words.txt "ark:gunzip -c exp/tri1/decode/lat.*.gz|" ark,t:exp/tri1/decode/scoring/8.tra 
-# Started at Sat Apr 23 13:35:24 CDT 2022
+# Started at Mon Apr 25 20:44:30 CDT 2022
 #
 lattice-best-path --lm-scale=8 --word-symbol-table=exp/tri1/graph/words.txt 'ark:gunzip -c exp/tri1/decode/lat.*.gz|' ark,t:exp/tri1/decode/scoring/8.tra 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_down_0, best cost 70.8278 + 9075.91 = 9146.73 over 60 frames.
-sess10_down_0 down 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_down_1, best cost 66.2756 + 8987.33 = 9053.6 over 60 frames.
-sess10_down_1 down 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_down_2, best cost 72.3193 + 10129.7 = 10202.1 over 65 frames.
-sess10_down_2 down 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_eight_0, best cost 68.233 + 8050.87 = 8119.1 over 54 frames.
-sess10_eight_0 eight 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_eight_1, best cost 66.1766 + 8098.62 = 8164.8 over 56 frames.
-sess10_eight_1 eight 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_eight_2, best cost 65.7415 + 8997.73 = 9063.47 over 60 frames.
-sess10_eight_2 eight 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_five_0, best cost 72.619 + 10446.4 = 10519 over 69 frames.
-sess10_five_0 five 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_five_1, best cost 72.0156 + 9856.94 = 9928.95 over 66 frames.
-sess10_five_1 five 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_five_2, best cost 101.225 + 10052.3 = 10153.6 over 63 frames.
-sess10_five_2 nine five 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_four_0, best cost 64.6646 + 8381.97 = 8446.64 over 54 frames.
-sess10_four_0 four 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_four_1, best cost 72.3936 + 10790.6 = 10863 over 71 frames.
-sess10_four_1 four 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_four_2, best cost 106.775 + 10440.4 = 10547.2 over 66 frames.
-sess10_four_2 four nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_left_0, best cost 70.5917 + 10334.2 = 10404.8 over 68 frames.
-sess10_left_0 left 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_left_1, best cost 69.4908 + 9862.9 = 9932.39 over 64 frames.
-sess10_left_1 left 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_left_2, best cost 63.2109 + 9586.86 = 9650.07 over 65 frames.
-sess10_left_2 left 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_nine_0, best cost 77.0084 + 10057.5 = 10134.5 over 69 frames.
-sess10_nine_0 nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_nine_1, best cost 73.3017 + 8965.29 = 9038.59 over 60 frames.
-sess10_nine_1 nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_nine_2, best cost 65.9918 + 9313.33 = 9379.32 over 62 frames.
-sess10_nine_2 nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_one_0, best cost 65.2406 + 10181.8 = 10247 over 64 frames.
-sess10_one_0 one 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_one_1, best cost 66.1786 + 10474.7 = 10540.9 over 67 frames.
-sess10_one_1 one 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_one_2, best cost 108.413 + 10841.7 = 10950.1 over 70 frames.
-sess10_one_2 right nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_right_0, best cost 70.9589 + 9762.45 = 9833.41 over 63 frames.
-sess10_right_0 right 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_right_1, best cost 88.4956 + 11374.6 = 11463.1 over 70 frames.
-sess10_right_1 right 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_right_2, best cost 66.6574 + 10550.7 = 10617.3 over 68 frames.
-sess10_right_2 right 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_seven_0, best cost 73.2229 + 9795.64 = 9868.86 over 64 frames.
-sess10_seven_0 seven 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_seven_1, best cost 71.1738 + 8782.71 = 8853.89 over 58 frames.
-sess10_seven_1 seven 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_seven_2, best cost 69.1039 + 8758.88 = 8827.99 over 58 frames.
-sess10_seven_2 seven 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_six_0, best cost 63.8872 + 8987.95 = 9051.83 over 58 frames.
-sess10_six_0 six 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_six_1, best cost 71.1541 + 9556.56 = 9627.72 over 65 frames.
-sess10_six_1 six 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_six_2, best cost 69.7667 + 9566.1 = 9635.87 over 65 frames.
-sess10_six_2 six 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_three_0, best cost 72.262 + 9785.8 = 9858.06 over 64 frames.
-sess10_three_0 three 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_three_1, best cost 70.2837 + 11416.9 = 11487.2 over 71 frames.
-sess10_three_1 three 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_three_2, best cost 71.0514 + 10353.3 = 10424.3 over 70 frames.
-sess10_three_2 three 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_two_0, best cost 65.5361 + 10358.7 = 10424.2 over 65 frames.
-sess10_two_0 four 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_two_1, best cost 69.3898 + 9475.1 = 9544.49 over 63 frames.
-sess10_two_1 four 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_two_2, best cost 68.6732 + 9465.94 = 9534.62 over 64 frames.
-sess10_two_2 two 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_up_0, best cost 70.6114 + 10176.6 = 10247.2 over 68 frames.
-sess10_up_0 nine 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_up_1, best cost 63.5685 + 8143.2 = 8206.77 over 54 frames.
-sess10_up_1 up 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_up_2, best cost 69.5049 + 9335.3 = 9404.8 over 60 frames.
-sess10_up_2 five 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_zero_1, best cost 72.7825 + 8858.64 = 8931.42 over 58 frames.
-sess10_zero_1 zero 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess10_zero_2, best cost 74.2733 + 9334.42 = 9408.7 over 60 frames.
-sess10_zero_2 zero 
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:124) Overall cost per frame is 153.804 = 1.14315 [graph] + 152.661 [acoustic] over 2599 frames.
-LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:128) Done 41 lattices, failed for 0
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_down_0, best cost 72.9241 + 9580.25 = 9653.17 over 59 frames.
+sess15_down_0 down 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_down_1, best cost 74.0059 + 10194.3 = 10268.3 over 63 frames.
+sess15_down_1 down 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_down_2, best cost 72.0211 + 9761.79 = 9833.81 over 60 frames.
+sess15_down_2 down 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_down_3, best cost 75.0662 + 10259.9 = 10335 over 63 frames.
+sess15_down_3 down 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_down_4, best cost 70.8065 + 8589.66 = 8660.47 over 54 frames.
+sess15_down_4 down 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_eight_0, best cost 71.1792 + 7683.14 = 7754.32 over 50 frames.
+sess15_eight_0 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_eight_1, best cost 72.2853 + 8887.49 = 8959.77 over 56 frames.
+sess15_eight_1 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_eight_2, best cost 66.4338 + 7792.97 = 7859.4 over 50 frames.
+sess15_eight_2 eight 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_eight_3, best cost 66.4934 + 8731.84 = 8798.33 over 56 frames.
+sess15_eight_3 eight 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_eight_4, best cost 72.9521 + 8734.24 = 8807.19 over 55 frames.
+sess15_eight_4 right 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_five_0, best cost 66.3527 + 8440.99 = 8507.34 over 53 frames.
+sess15_five_0 five 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_five_1, best cost 71.1486 + 10877.4 = 10948.6 over 66 frames.
+sess15_five_1 five 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_five_2, best cost 68.9927 + 8376.66 = 8445.66 over 53 frames.
+sess15_five_2 five 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_five_3, best cost 70.1024 + 8857.95 = 8928.05 over 57 frames.
+sess15_five_3 five 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_five_4, best cost 63.1927 + 9377.43 = 9440.62 over 54 frames.
+sess15_five_4 five 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_four_0, best cost 71.508 + 9134.54 = 9206.04 over 57 frames.
+sess15_four_0 four 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_four_1, best cost 69.5361 + 9330.18 = 9399.72 over 56 frames.
+sess15_four_1 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_four_2, best cost 66.3256 + 8454.57 = 8520.89 over 52 frames.
+sess15_four_2 four 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_four_3, best cost 71.3408 + 9090.96 = 9162.3 over 57 frames.
+sess15_four_3 four 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_four_4, best cost 69.5179 + 9973.56 = 10043.1 over 64 frames.
+sess15_four_4 four 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_left_0, best cost 63.2667 + 7852.4 = 7915.66 over 49 frames.
+sess15_left_0 left 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_left_1, best cost 71.1971 + 9155.75 = 9226.94 over 59 frames.
+sess15_left_1 left 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_left_2, best cost 68.5583 + 8924.62 = 8993.17 over 55 frames.
+sess15_left_2 left 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_left_3, best cost 67.9087 + 7499.61 = 7567.52 over 48 frames.
+sess15_left_3 left 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_left_4, best cost 70.4576 + 9001.99 = 9072.45 over 57 frames.
+sess15_left_4 left 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_nine_0, best cost 73.5346 + 8403.42 = 8476.95 over 57 frames.
+sess15_nine_0 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_nine_1, best cost 70.5447 + 7832.61 = 7903.15 over 51 frames.
+sess15_nine_1 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_nine_2, best cost 72.9941 + 8711.6 = 8784.59 over 55 frames.
+sess15_nine_2 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_nine_3, best cost 67.6242 + 8385.59 = 8453.21 over 53 frames.
+sess15_nine_3 eight 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_nine_4, best cost 69.4599 + 8303.78 = 8373.24 over 56 frames.
+sess15_nine_4 nine 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_one_0, best cost 64.9349 + 9289.77 = 9354.7 over 57 frames.
+sess15_one_0 one 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_one_1, best cost 69.0746 + 8813.29 = 8882.36 over 55 frames.
+sess15_one_1 one 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_one_2, best cost 71.7215 + 10746.4 = 10818.1 over 68 frames.
+sess15_one_2 one 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_one_3, best cost 63.7197 + 8779.51 = 8843.23 over 53 frames.
+sess15_one_3 one 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_one_4, best cost 67.3441 + 9407.25 = 9474.59 over 60 frames.
+sess15_one_4 one 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_right_0, best cost 61.8599 + 9237.74 = 9299.6 over 55 frames.
+sess15_right_0 right 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_right_1, best cost 70.4814 + 9662.8 = 9733.29 over 59 frames.
+sess15_right_1 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_right_2, best cost 66.3761 + 9153.38 = 9219.76 over 57 frames.
+sess15_right_2 right 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_right_3, best cost 69.9362 + 10209.3 = 10279.3 over 63 frames.
+sess15_right_3 right 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_right_4, best cost 70.9165 + 10206.9 = 10277.8 over 61 frames.
+sess15_right_4 right 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_seven_0, best cost 80.0818 + 9378.41 = 9458.49 over 58 frames.
+sess15_seven_0 seven 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_seven_1, best cost 77.3314 + 8380.79 = 8458.12 over 53 frames.
+sess15_seven_1 seven 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_seven_2, best cost 69.8357 + 7866.78 = 7936.61 over 51 frames.
+sess15_seven_2 seven 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_seven_3, best cost 72.6721 + 8897.29 = 8969.97 over 55 frames.
+sess15_seven_3 seven 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_seven_4, best cost 69.9252 + 9540.37 = 9610.3 over 59 frames.
+sess15_seven_4 seven 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_six_0, best cost 69.0639 + 8557.58 = 8626.64 over 52 frames.
+sess15_six_0 six 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_six_1, best cost 67.653 + 8786.64 = 8854.3 over 53 frames.
+sess15_six_1 six 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_six_2, best cost 67.0797 + 9266.9 = 9333.98 over 57 frames.
+sess15_six_2 six 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_six_3, best cost 69.6627 + 8475.72 = 8545.38 over 53 frames.
+sess15_six_3 six 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_six_4, best cost 73.2934 + 10465.5 = 10538.8 over 62 frames.
+sess15_six_4 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_three_0, best cost 70.3222 + 8897.44 = 8967.76 over 53 frames.
+sess15_three_0 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_three_1, best cost 70.2026 + 9044.81 = 9115.01 over 55 frames.
+sess15_three_1 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_three_2, best cost 70.1027 + 9769.56 = 9839.66 over 59 frames.
+sess15_three_2 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_three_3, best cost 71.3386 + 9668.96 = 9740.3 over 60 frames.
+sess15_three_3 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_three_4, best cost 69.2893 + 8884.24 = 8953.53 over 56 frames.
+sess15_three_4 three 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_two_0, best cost 98.9173 + 9779.02 = 9877.94 over 57 frames.
+sess15_two_0 two eight 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_two_1, best cost 65.4136 + 9206.49 = 9271.91 over 57 frames.
+sess15_two_1 two 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_two_2, best cost 60.536 + 9737.43 = 9797.96 over 59 frames.
+sess15_two_2 two 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_two_3, best cost 65.7321 + 8622.84 = 8688.57 over 53 frames.
+sess15_two_3 two 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_two_4, best cost 68.0083 + 8667 = 8735.01 over 55 frames.
+sess15_two_4 two 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_up_0, best cost 63.847 + 7598.29 = 7662.14 over 46 frames.
+sess15_up_0 up 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_up_1, best cost 63.8746 + 8015.08 = 8078.96 over 47 frames.
+sess15_up_1 up 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_up_2, best cost 65.4855 + 8460.04 = 8525.52 over 51 frames.
+sess15_up_2 up 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_up_3, best cost 64.4612 + 8214.72 = 8279.18 over 50 frames.
+sess15_up_3 up 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_up_4, best cost 66.2016 + 8989.47 = 9055.67 over 56 frames.
+sess15_up_4 up 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_zero_0, best cost 73.4565 + 9939.14 = 10012.6 over 61 frames.
+sess15_zero_0 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_zero_1, best cost 72.7275 + 10476.7 = 10549.5 over 64 frames.
+sess15_zero_1 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_zero_2, best cost 76.3725 + 10989.7 = 11066.1 over 66 frames.
+sess15_zero_2 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_zero_3, best cost 73.359 + 8936.41 = 9009.77 over 56 frames.
+sess15_zero_3 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:99) For utterance sess15_zero_4, best cost 76.7137 + 9631.49 = 9708.21 over 59 frames.
+sess15_zero_4 zero 
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:124) Overall cost per frame is 162.538 = 1.24417 [graph] + 161.294 [acoustic] over 3936 frames.
+LOG (lattice-best-path[5.5.1017~3-12a20]:main():lattice-best-path.cc:128) Done 70 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 13:35:24 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 25 20:44:30 CDT 2022, elapsed time 0 seconds

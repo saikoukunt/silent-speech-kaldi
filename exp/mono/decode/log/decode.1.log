@@ -1,94 +1,152 @@
 # gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
-# Started at Sat Apr 23 13:35:02 CDT 2022
+# Started at Mon Apr 25 20:44:03 CDT 2022
 #
 gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
 add-deltas ark:- ark:- 
 apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
-sess10_down_0 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_down_0 is -12.5751 over 60 frames.
-sess10_down_1 down 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_down_1 is -12.5539 over 60 frames.
-sess10_down_2 down 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_down_2 is -12.9912 over 65 frames.
-sess10_eight_0 eight 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_eight_0 is -12.42 over 54 frames.
-sess10_eight_1 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_eight_1 is -11.9613 over 56 frames.
-sess10_eight_2 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_eight_2 is -12.3741 over 60 frames.
-sess10_five_0 five 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_five_0 is -12.557 over 69 frames.
-sess10_five_1 five 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_five_1 is -12.5105 over 66 frames.
-sess10_five_2 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_five_2 is -13.1715 over 63 frames.
-sess10_four_0 four 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_four_0 is -12.9094 over 54 frames.
-sess10_four_1 four 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_four_1 is -12.5877 over 71 frames.
-sess10_four_2 four 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_four_2 is -13.1227 over 66 frames.
-sess10_left_0 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_left_0 is -12.5975 over 68 frames.
-sess10_left_1 left 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_left_1 is -12.7512 over 64 frames.
-sess10_left_2 left 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_left_2 is -12.2285 over 65 frames.
-sess10_nine_0 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_nine_0 is -12.0721 over 69 frames.
-sess10_nine_1 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_nine_1 is -12.2963 over 60 frames.
-sess10_nine_2 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_nine_2 is -12.4181 over 62 frames.
-sess10_one_0 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_one_0 is -13.1482 over 64 frames.
-sess10_one_1 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_one_1 is -12.9773 over 67 frames.
-sess10_one_2 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_one_2 is -12.828 over 70 frames.
-sess10_right_0 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_right_0 is -12.7978 over 63 frames.
-sess10_right_1 three two 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_right_1 is -13.4465 over 70 frames.
-sess10_right_2 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_right_2 is -12.7957 over 68 frames.
-sess10_seven_0 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_seven_0 is -12.6754 over 64 frames.
-sess10_seven_1 seven 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_seven_1 is -12.6196 over 58 frames.
-sess10_seven_2 seven 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_seven_2 is -12.5842 over 58 frames.
-sess10_six_0 six 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_six_0 is -12.8894 over 58 frames.
-sess10_six_1 eight 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_six_1 is -12.2961 over 65 frames.
-sess10_six_2 six 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_six_2 is -12.2866 over 65 frames.
-sess10_three_0 three 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_three_0 is -12.7385 over 64 frames.
-sess10_three_1 right 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_three_1 is -13.3178 over 71 frames.
-LOG (apply-cmvn[5.5.1017~3-12a20]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 41 utterances, errors on 0
-sess10_three_2 three 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_three_2 is -12.3381 over 70 frames.
-sess10_two_0 four 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_two_0 is -13.2607 over 65 frames.
-sess10_two_1 four 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_two_1 is -12.5123 over 63 frames.
-sess10_two_2 two 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_two_2 is -12.3154 over 64 frames.
-sess10_up_0 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_up_0 is -12.2436 over 68 frames.
-sess10_up_1 up 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_up_1 is -12.5488 over 54 frames.
-sess10_up_2 nine 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_up_2 is -12.685 over 60 frames.
-sess10_zero_1 zero 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_zero_1 is -12.7495 over 58 frames.
-sess10_zero_2 zero 
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess10_zero_2 is -12.9862 over 60 frames.
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:176) Time taken 0.20387s: real-time factor assuming 100 frames/sec is 0.00784417
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:179) Done 41 utterances, failed for 0
-LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -12.6665 over 2599 frames.
+sess15_down_0 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_down_0 is -13.4672 over 59 frames.
+sess15_down_1 down 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_down_1 is -13.4212 over 63 frames.
+sess15_down_2 down 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_down_2 is -13.4682 over 60 frames.
+sess15_down_3 down 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_down_3 is -13.5179 over 63 frames.
+sess15_down_4 down 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_down_4 is -13.2308 over 54 frames.
+sess15_eight_0 eight 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_eight_0 is -12.8122 over 50 frames.
+sess15_eight_1 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_eight_1 is -13.0519 over 56 frames.
+sess15_eight_2 eight 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_eight_2 is -12.8553 over 50 frames.
+sess15_eight_3 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_eight_3 is -12.8525 over 56 frames.
+sess15_eight_4 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_eight_4 is -13.135 over 55 frames.
+sess15_five_0 five 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_five_0 is -13.2326 over 53 frames.
+sess15_five_1 five 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_five_1 is -13.5993 over 66 frames.
+sess15_five_2 five 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_five_2 is -13.1479 over 53 frames.
+sess15_five_3 five 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_five_3 is -12.8454 over 57 frames.
+sess15_five_4 five 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_five_4 is -14.2599 over 54 frames.
+sess15_four_0 four 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_four_0 is -13.2595 over 57 frames.
+sess15_four_1 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_four_1 is -13.6921 over 56 frames.
+sess15_four_2 four 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_four_2 is -13.4279 over 52 frames.
+sess15_four_3 four 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_four_3 is -13.2091 over 57 frames.
+sess15_four_4 four 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_four_4 is -12.9002 over 64 frames.
+sess15_left_0 left 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_left_0 is -13.2497 over 49 frames.
+sess15_left_1 left 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_left_1 is -12.8121 over 59 frames.
+sess15_left_2 left 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_left_2 is -13.3027 over 55 frames.
+sess15_left_3 left 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_left_3 is -12.9045 over 48 frames.
+sess15_left_4 left 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_left_4 is -13.008 over 57 frames.
+sess15_nine_0 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_nine_0 is -12.2148 over 57 frames.
+sess15_nine_1 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_nine_1 is -12.8491 over 51 frames.
+sess15_nine_2 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_nine_2 is -13.0267 over 55 frames.
+sess15_nine_3 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_nine_3 is -13.0737 over 53 frames.
+sess15_nine_4 nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_nine_4 is -12.2512 over 56 frames.
+sess15_one_0 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_one_0 is -13.4175 over 57 frames.
+sess15_one_1 one 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_one_1 is -13.299 over 55 frames.
+sess15_one_2 one 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_one_2 is -13.0913 over 68 frames.
+sess15_one_3 one 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_one_3 is -13.7194 over 53 frames.
+sess15_one_4 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_one_4 is -12.9313 over 60 frames.
+sess15_right_0 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_right_0 is -13.718 over 55 frames.
+sess15_right_1 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_right_1 is -13.5905 over 59 frames.
+sess15_right_2 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_right_2 is -13.2205 over 57 frames.
+sess15_right_3 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_right_3 is -13.3491 over 63 frames.
+sess15_right_4 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_right_4 is -13.8172 over 61 frames.
+sess15_seven_0 seven 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_seven_0 is -13.4772 over 58 frames.
+sess15_seven_1 seven 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_seven_1 is -13.1294 over 53 frames.
+sess15_seven_2 seven 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_seven_2 is -12.8789 over 51 frames.
+sess15_seven_3 seven 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_seven_3 is -13.3222 over 55 frames.
+sess15_seven_4 seven 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_seven_4 is -13.4919 over 59 frames.
+sess15_six_0 six 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_six_0 is -13.6297 over 52 frames.
+sess15_six_1 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_six_1 is -13.7236 over 53 frames.
+sess15_six_2 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_six_2 is -13.4854 over 57 frames.
+sess15_six_3 right 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_six_3 is -13.3009 over 53 frames.
+sess15_six_4 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_six_4 is -13.7602 over 62 frames.
+sess15_three_0 three 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_three_0 is -13.9427 over 53 frames.
+sess15_three_1 three 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_three_1 is -13.5648 over 55 frames.
+sess15_three_2 three 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_three_2 is -13.8 over 59 frames.
+sess15_three_3 three 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_three_3 is -13.279 over 60 frames.
+sess15_three_4 three 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_three_4 is -13.1175 over 56 frames.
+sess15_two_0 two nine 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_two_0 is -14.279 over 57 frames.
+sess15_two_1 two 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_two_1 is -13.3453 over 57 frames.
+sess15_two_2 two 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_two_2 is -13.4791 over 59 frames.
+sess15_two_3 two 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_two_3 is -13.396 over 53 frames.
+sess15_two_4 two 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_two_4 is -13.0079 over 55 frames.
+LOG (apply-cmvn[5.5.1017~3-12a20]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 70 utterances, errors on 0
+sess15_up_0 up 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_up_0 is -13.6511 over 46 frames.
+sess15_up_1 up 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_up_1 is -14.107 over 47 frames.
+sess15_up_2 up 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_up_2 is -13.8492 over 51 frames.
+sess15_up_3 up 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_up_3 is -13.5428 over 50 frames.
+sess15_up_4 up 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_up_4 is -13.369 over 56 frames.
+sess15_zero_0 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_zero_0 is -13.4501 over 61 frames.
+sess15_zero_1 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_zero_1 is -13.5366 over 64 frames.
+sess15_zero_2 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_zero_2 is -13.7982 over 66 frames.
+sess15_zero_3 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_zero_3 is -13.2904 over 56 frames.
+sess15_zero_4 zero 
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sess15_zero_4 is -13.5991 over 59 frames.
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:176) Time taken 0.319697s: real-time factor assuming 100 frames/sec is 0.00812239
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:179) Done 70 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.1017~3-12a20]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -13.3422 over 3936 frames.
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 13:35:02 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 25 20:44:03 CDT 2022, elapsed time 0 seconds

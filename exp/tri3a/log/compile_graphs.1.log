@@ -1,7 +1,7 @@
 # compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri3a/tree exp/tri3a/1.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text |" "ark:|gzip -c >exp/tri3a/fsts.1.gz" 
-# Started at Sat Apr 23 13:39:36 CDT 2022
+# Started at Mon Apr 25 20:45:35 CDT 2022
 #
 compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri3a/tree exp/tri3a/1.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text |' 'ark:|gzip -c >exp/tri3a/fsts.1.gz' 
-LOG (compile-train-graphs[5.5.1017~3-12a20]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 672 graphs, failed for 0
+LOG (compile-train-graphs[5.5.1017~3-12a20]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 783 graphs, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 13:39:36 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 25 20:45:35 CDT 2022, elapsed time 0 seconds

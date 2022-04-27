@@ -1,12 +1,13 @@
 # gunzip -c exp/tri3a/decode/depth_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/tri3a/graph exp/tri3a/decode/ali_frame_tmp.gz 
-# Started at Sat Apr 23 14:07:54 CDT 2022
+# Started at Mon Apr 25 21:44:00 CDT 2022
 #
 The total amount of data analyzed assuming 100 frames per second is 0.0 hours
-Overall, lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
-Nonsilence phones as a group account for 82.9% of frames, with lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
-Phone n_E accounts for 48.6% of frames, with lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
-Phone ah1_I accounts for 20.0% of frames, with lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
-Phone sil accounts for 17.1% of frames, with lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
-Phone w_B accounts for 14.3% of frames, with lattice depth (10,50,90-percentile)=(2,2,2) and mean=2.0
+Overall, lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Nonsilence phones as a group account for 53.1% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Phone sil accounts for 46.9% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Phone z_B accounts for 21.9% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Phone ow0_E accounts for 12.5% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Phone ih1_I accounts for 9.4% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
+Phone r_I accounts for 9.4% of frames, with lattice depth (10,50,90-percentile)=(7,7,7) and mean=7.0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Apr 23 14:07:54 CDT 2022, elapsed time 0 seconds
+# Ended (code 0) at Mon Apr 25 21:44:00 CDT 2022, elapsed time 0 seconds
